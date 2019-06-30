@@ -26,6 +26,6 @@ var getWizardX = function (width) {
 
 // Положение мага по вертикали
 var getWizardY = function (height) {
-  var wizardY = height * 2 / 30;
+  var wizardY = height * 2 / 60;
   return wizardY;
 };
