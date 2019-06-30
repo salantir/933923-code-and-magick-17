@@ -18,16 +18,14 @@ var getWizardHeight = function() {
   return proportionalHeight;
 };
 
-// Задаем ширину игровой области
+// Положение мага по горизонтали
 var getWizardX = function(width) {
-  var wizardX = width / 2 + wizardWidth / 2;
+  var wizardX = width / 3 + wizardWidth / 2;
 return wizardX;
 };
-getWizardX(100);
 
-//Задаем высоту игровой области
+//Положение мага по вертикали
 var getWizardY = function(height) {
-  var wizardY = height * 2 / 3;
+  var wizardY = height * 2 / 60;
 return wizardY;
 };
-getWizardY(60);
